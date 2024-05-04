@@ -1,7 +1,6 @@
 import qrcode
 import sys
 
-# Komut satırından gelen argümanı al
 if len(sys.argv) < 2:
     print("Kullanım: python script.py 'SQL_SORGUSU'")
     sys.exit(1)
